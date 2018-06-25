@@ -1,2 +1,2 @@
 # Haskell-functional-programming
-Haskell Miniprojects
+UNDER CONSTRUCTION
