@@ -1,0 +1,21 @@
+The tree needs to obey these invariants:
+
+1. The elements (of type a) are orderable. (Consequently, 
+type a should be an instance of the type class Ord.) 
+All elements in the left subtree of a node are strictly 
+smaller than the element stored in the node, and all 
+elements in the right subtree of a node are strictly 
+larger than the element stored in the node. 
+(This also implies that there can be no duplicated 
+elements in the tree.)
+
+2. No red node has a red parent. (Leaves are considered 
+to be black.)
+
+3. Every path from the root node to a leaf contains the 
+same number of black nodes. We will refer below to the 
+"distance" from the root node to a leaf node; this means 
+the number of nodes in such a path. More specifically, 
+the distance from the root node to a leaf is the number 
+of times you can go from a node to one of its branch nodes 
+before you hit a leaf, starting from the root node.
